@@ -45,6 +45,9 @@ var upload = function () {
     }
 }
 
+/*
+ * Function to rotate the image and apply animation.
+ */
 function rotationFunction() {
     /* Clear the canvas and create new image blob */
     ctx.clearRect(0, 0, canvas.width, canvas.height);
