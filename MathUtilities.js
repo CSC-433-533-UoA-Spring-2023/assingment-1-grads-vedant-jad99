@@ -1,3 +1,7 @@
+// Returns the angle in radians
+function GetRadiansFromDegrees(angle) {
+    return angle * Math.PI / 180;
+}
 
 // Returns the basic rotation matrix given an angle in degrees
 function GetRotationMatrix(angle){
